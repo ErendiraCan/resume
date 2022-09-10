@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <title>Internship Project</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.9.1/css/OverlayScrollbars.min.css'>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!-- Bulma Version 0.9.0-->
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/hero.css">
+    <link rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
+    <style>
+    .columns:nth-child(2)
+    {margin-top: -10rem;}
+    </style>
+  </head>
+  <body>
+    <section class="hero is-info is-small">
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <p class="title">
+            Internship Project
+          </p>
+          <p class="subtitle">
+            <a href="https://www.curiumpharma.com/">Curium Pharma</a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <div class="box cta">
+      <p class="has-text-centered darkpink"><strong>Purpose:</strong></p>
+      <p class="has-text-centered">
+        Create a Database to track the information and activity related to all different target types of the company, summarize all the codes and information in a single place to make easier consults related to dates and codes.
+      </p>
+    </div>
+    <section class="container">
+      <div class="columns features">
+        <!-- Data Model Section -->
+        <div class="column is-4">
+          <div class="card is-shady">
+            <div class="card-image">
+              <figure class="image is-4by4">
+                <img src="./images/design.png" alt="Data Model Image" class="modal-button" data-target="modal-image1">
+              </figure>
+            </div>
+            <div class="card-content modal-button" data-target="modal-card1">
+              <div class="content has-text-centered">
+                <h4 class="darkpink">Data Model</h4>
+                <p>
+                  The image above is an example of the data model, but is not the current data model, because there is sensitive information related to the company products.<br>
+                  Click over the image to see it bigger.
+                </p>
+                <span class="button is-link modal-button">Read More</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Data Model Section -->
+        <!-- Results Section -->
+        <div class="column is-4">
+          <div class="card is-shady">
+            <div class="card-image">
+              <figure class="image is-4by4">
+                <img src="./images/netlogo.png" alt=".NET Logo">
+              </figure>
+            </div>
+            <div class="card-content  modal-button" data-target="modal-card2">
+              <div class="content has-text-centered">
+                <h4 class="darkpink">Results</h4>
+                <p>
+                  The solution was written in C#, it is an MVC made it using the .NET framework to create the models, controllers, and views.
+                </p>
+                <span class="button is-link modal-button">Read More</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Results Section -->
+        <!-- Impact Section -->
+        <div class="column is-4">
+          <div class="card is-shady">
+            <div class="card-image">
+              <figure class="image is-4by4">
+                <img src="./images/Curium-Logo.jpg" alt="Curium Logo">
+              </figure>
+            </div>
+            <div class="card-content  modal-button" data-target="modal-card3">
+              <div class="content has-text-centered">
+                <h4 class="darkpink">Impact in the Company</h4>
+                <p>
+                  The principal purpose of this Target Database is to save time and effort doing consults and tracking the targets.
+                </p>
+                <span class="button is-link modal-button">Read More</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Impact Section -->
+      </div>
+    </section>
+   <section class="postmargin">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-10 is-offset-1">
+          <div class="columns featured-post is-multiline postmargin">
+            <div class="column is-12 post">
+              <article class="columns featured">
+                <div class="column is-7 post-img ">
+                  <img src="./images/Index.jpg" alt="Index View">
+                </div>
+                <div class="column is-5 featured-content va">
+                  <div>
+                    <h3 class="heading post-category">Views</h3>
+                    <h1 class="title post-title darkpink">Index</h1>
+                    <p class="post-excerpt">
+                      The image on the left shows how it looks like a target Index, the values are for trial purposes. Every target-type table has its own index. Every index looks the same, 
+                      both have two searching box tools that will let employees save time. As well all the columns have the ability to sort the information in ascending or descending order by only clicking on the title of each column. 
+                      Not all the information is exposed on the index, only codes, lot numbers, the id of the target, and the status.
+                    </p>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+          <hr class="is-hidden">
+          <div class="columns featured-post is-multiline postmargin">
+            <div class="column is-12 post">
+              <article class="columns featured">
+                <div class="column is-5 featured-content has-text-right">
+                  <div>
+                    <h3 class="heading post-category">Views</h3>
+                    <h1 class="title post-title darkpink">Update</h1>
+                    <p class="post-excerpt">
+                      The image on the right is an example of the Update view where the information can be added or edit it. 
+                      I let the ID value be exposed to be easy for employees to write reports based on the ID, every view displays this value. 
+                      There are 5 buttons that display the information after a click. 
+                      Each stage is separated, and they only will display the information related to be updated. 
+                      As well there is a button to add information to the target test tables, which automatically will link the target ID to the target test and will let add any number of tests.
+                    </p>
+                  </div>
+                </div>
+                <div class="column is-7 post-img ">
+                  <img src="./images/Update.jpg" alt="Update View">
+                </div>
+              </article>
+            </div>
+          </div>
+          <hr class="is-hidden">
+          <div class="columns featured-post is-multiline postmargin">
+            <div class="column is-12 post">
+              <article class="columns featured">
+                <div class="column is-7 post-img ">
+                  <img src="./images/Details.jpg" alt="Details View">
+                </div>
+                <div class="column is-5 featured-content va">
+                  <div>
+                    <h3 class="heading post-category">Views</h3>
+                    <h1 class="title post-title darkpink">Details</h1>
+                    <p class="post-excerpt">
+                      The image on the left is an example of Details View compared with the diagram of the target flow. 
+                      The image is blurred because it contains sensitive information related to the company's products. 
+                      The details view lets visualize the information in a linear way making it easy for employees to see at which stage the target is and all the history of its changes. 
+                      The details only will display the information depending on the status of the target. 
+                      For example, if the target is in stage 3 it will display stages 1, 2, and 3 respectively.
+                    </p>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+    <footer>
+      <div class="content has-text-centered">
+        <div class="control level-item">
+          <a href="./index.html">
+            <div class="tags has-addons postmargin">
+              <span class="tag is-info">Back to Main Page</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <!--  ===============
+    HERE BE MODALS
+    ===============  -->
+    <!-- Data Model Modal -->
+    <div id="modal-card1" class="modal modal-fx-3dSlit">
+      <div class="modal-background"></div>
+      <div class="modal-content">
+        <!-- content -->
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-4by4">
+              <img src="./images/design.png" alt="Data Model Image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              <ul>
+                <li>
+                  There are 8 tables in the database, 4 of them are based on the company target types and the other 4 are their respective tests.
+                </li>
+                <li>
+                  I decided to design the model in this way because each target type is different from the other, 
+                  they have different codes and different physical characteristics, some of them are physically one and some others have more pieces, like a face and a body.
+                </li>
+                <li>
+                  The target types tables (CS-30, IBA, TR-30, and OtherTargets) are separated because it makes it easier to map the information and consults related to a single target type.
+                </li>
+                <li>
+                  The target types tables and the tests tables have a relationship of one to many, which means a single target can have multiple tests depending on the test quantity specified.
+                </li>
+                <li>
+                  I like to see this relationship based on the company's production system, the target type table is like a box with a specific code and lot number, and inside the box, 
+                  there are single targets with their own codes and tests.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- end content -->
+      </div>
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+    <!-- end Data Model Modal -->
+    <!-- Data Model Modal Image -->
+    <div id="modal-image1" class="modal modal-fx-3dSlit">
+      <div class="modal-background"></div>
+      <div class="modal-content is-huge is-image">
+        <!-- content -->
+        <img src="./images/design.png" alt="Data Model Image">
+        <!-- end content -->
+      </div>
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+    <!-- End Data Model Modal Image -->
+    <!-- Results Modal -->
+    <div id="modal-card2" class="modal modal-fx-3dSlit">
+      <div class="modal-background"></div>
+      <div class="modal-content">
+        <!-- content -->
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-4by4">
+              <img src="./images/netlogo.png" alt=".NET Logo">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              <ul>
+                <li>
+                  I had the opportunity to choose what language and framework to use, I decided to use .NET because it let me develop a complex solution in a short time. 
+                  As well because it is easy to deploy, it is easy to use, it is flexible with all its libraries, and the security Microsoft provides.
+                </li>
+                <li>
+                  I added dropdown menus to control the data entry to avoid misspelling mistakes, this helped employees to save time during production.
+                </li>
+                <li>
+                  The design makes it easier to display changes with the current date and time.
+                </li>
+                <li>
+                  The database makes it easy to understand the target flow through all its stages(Life Cycle).
+                </li>
+                <li>
+                  The tracking system helps to locate in real time where a certain target is and who is in charge of that target.
+                </li>
+                <li>
+                  The separate indexes make clear consults for target types and for their proper exams and results.
+                </li>
+                <li>
+                  The target data model of the database makes code easy to handle and understand, this lets future updates, improvements, and expansions be added.                
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- end content -->
+      </div>
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+    <!-- Impact Modal -->
+    <div id="modal-card3" class="modal modal-fx-3dSlit">
+      <div class="modal-background"></div>
+      <div class="modal-content">
+        <!-- content -->
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-4by4">
+              <img src="./images/Curium-Logo.jpg" alt="Curium Logo">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              <p>
+                Before the deployment of this database, the department database was more for inventory purposes. Their current diagrams for target flow and life cycle were too difficult to understand even for employees.<br>
+                This database makes it easy to understand all those diagrams like a track system, showing the target flow in a linear way.<br>
+                The Database will let the employees save time looking for a specific target through books and notes making them able to insert a keyword to locate a target status, code, or lot number to get all its information.<br>
+                The proper use of the database will let keep on track and update all the information needed for decision making.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- end content -->
+      </div>
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+    <script src="https://unpkg.com/bulma-modal-fx/dist/js/modal-fx.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.9.1/js/OverlayScrollbars.min.js'></script>  
+    <script src="./js/wild.js"></script>
+        <script>
+        document.addEventListener("DOMContentLoaded", function() {
+        //The first argument are the elements to which the plugin shall be initialized
+        //The second argument has to be at least a empty object or a object with your desired options
+        OverlayScrollbars(document.querySelectorAll("body"), { });
+        });
+        </script>  
+  </body>
+</html>
